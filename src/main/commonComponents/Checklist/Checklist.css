@@ -1,0 +1,10 @@
+.checklist-pattern {
+  display: inline-block;
+  margin: 0.5em 3em 0.5em 0;
+  vertical-align: top;
+}
+.checklist-pattern > label {
+  color: var(--green-50);
+  display: block;
+  margin-bottom: 8px;
+}

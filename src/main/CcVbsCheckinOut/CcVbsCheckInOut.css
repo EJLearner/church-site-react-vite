@@ -1,0 +1,32 @@
+.check-in-out-page {
+  padding: 1em;
+}
+.check-in-out-page h1 {
+  color: #73af55;
+}
+.check-in-out-page .who-checking {
+  font-weight: bold;
+}
+.check-in-out-page .select-all-text {
+  text-transform: uppercase;
+}
+.check-in-out-page .checkbox-pattern label {
+  color: #73af55;
+}
+.check-in-out-page .button-div {
+  display: inline-block;
+  width: 49%;
+}
+.check-in-out-page .button-div .select-all-button,
+.check-in-out-page .button-div .check-in-button {
+  display: block;
+  margin: auto;
+}
+.check-in-out-page .button-div .check-in-button {
+  background-color: #73af55;
+  background-image: linear-gradient(#9ec789, #73af55);
+}
+.check-in-out-page .button-div .disabled {
+  background-color: #d9d9d9;
+  background-image: none;
+}

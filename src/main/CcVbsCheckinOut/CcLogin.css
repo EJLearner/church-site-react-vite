@@ -1,0 +1,32 @@
+.cc-login-page {
+  padding: 1em;
+}
+.cc-login-page h1 {
+  color: #73af55;
+}
+.cc-login-page .who-checking {
+  font-weight: bold;
+}
+.cc-login-page .select-all-text {
+  text-transform: uppercase;
+}
+.cc-login-page .checkbox-pattern label {
+  color: #73af55;
+}
+.cc-login-page .button-div {
+  display: inline-block;
+  width: 49%;
+}
+.cc-login-page .button-div .select-all-button,
+.cc-login-page .button-div .check-in-button {
+  display: block;
+  margin: auto;
+}
+.cc-login-page .button-div .check-in-button {
+  background-color: #73af55;
+  background-image: linear-gradient(#9ec789, #73af55);
+}
+.cc-login-page .button-div .disabled {
+  background-color: #d9d9d9;
+  background-image: none;
+}

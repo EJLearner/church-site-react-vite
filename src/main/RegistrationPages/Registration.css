@@ -1,0 +1,74 @@
+.registration-page {
+  box-shadow: 6px 6px 6px 0 #c2c2c2;
+  border: 1px solid gray;
+  margin: 1em auto;
+  padding: 0.2em 1em 2em 1em;
+  width: 600px;
+}
+.registration-page h1 {
+  font-weight: normal;
+  font-size: 48px;
+  color: var(--orange);
+  margin-bottom: 0px;
+  margin-top: 16px;
+}
+.registration-page h2 {
+  font-weight: normal;
+  font-size: 24px;
+  color: var(--orange);
+  margin-top: 0px;
+}
+.registration-page h1.vbs-header,
+.registration-page h2.vbs-header {
+  color: var(--green-50);
+}
+.registration-page h3 {
+  color: var(--gray95);
+}
+.registration-page p {
+  color: var(--gray95);
+}
+.registration-page input[type='checkbox'] {
+  color: var(--red);
+  box-shadow: 0 0 0 0;
+}
+.registration-page .error-list {
+  color: var(--gray95);
+}
+.registration-page .error-list ul {
+  margin-top: 0.2em;
+}
+.registration-page .error-list i {
+  color: var(--orange);
+}
+.registration-page .success {
+  background-color: var(--green);
+}
+.registration-page .failure {
+  background-color: var(--red);
+}
+.registration-page label {
+  color: var(--gray95);
+  font-weight: bold;
+  font-size: 12px;
+  margin-bottom: 5px;
+}
+.registration-page .checklist-pattern > label {
+  color: var(--green-50);
+}
+.registration-page .registration-checkbox > label {
+  color: var(--green-50);
+}
+.registration-page .registration-modal ul {
+  list-style-type: none;
+  padding: 0;
+}
+.registration-page .registration-modal ul li {
+  line-height: 1.5;
+}
+.registration-page .registration-modal ul .check-list-summary li {
+  padding: 0 15px;
+}
+.registration-page .registration-modal button {
+  margin-right: 1em;
+}

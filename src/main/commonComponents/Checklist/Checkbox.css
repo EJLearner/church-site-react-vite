@@ -1,0 +1,8 @@
+.checkbox-pattern {
+  line-height: 1.5;
+}
+
+.checkbox-pattern.inline {
+  display: inline-block;
+  margin-right: 1em;
+}

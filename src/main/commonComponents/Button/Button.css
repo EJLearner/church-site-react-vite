@@ -1,0 +1,17 @@
+.oval-button {
+  background-color: orange;
+  background-image: linear-gradient(#ffc04d, orange);
+  border: none;
+  border-radius: 15px;
+  color: black;
+  box-shadow: none;
+  min-width: 80px;
+  min-height: 30px;
+}
+
+.rect-button {
+  border: 1px solid;
+  box-shadow: none;
+  min-width: 80px;
+  min-height: 30px;
+}
